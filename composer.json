@@ -9,6 +9,7 @@
   ],
   "require": {
     "php": ">=5.4",
+    "wp-themes": "dev-master",
     "johnpbloch/wordpress": "*",
     "wpackagist-plugin/advanced-custom-fields": "*",
     "wpackagist-plugin/ajax-thumbnail-rebuild": "*",
@@ -28,7 +29,12 @@
       {
           "type":"composer",
           "url":"https://wpackagist.org"
-      }
+      },
+      {
+      "type": "git",
+      "url": "https://github.com/deguto/wp-themes.git"
+    },
+
   ],
   "autoload": {
       "psr-0": {
